@@ -25,9 +25,15 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="area" class="form-label">Área</label>
-                        <input type="text" class="form-control" id="area" name="area" required>
+                    <label for="area" class="form-label">Área</label>
+                    <select class="form-select" id="area" name="area" required>
+                        <option value="">Seleccione un área</option>
+                        <option value="TI">TI</option>
+                        <option value="Administrador">Administrador</option>
+                        <option value="Contabilidad">Contabilidad</option>
+                    </select>
                     </div>
+
 
                     <div class="row">
                         <div class="col-md-6 mb-3">
